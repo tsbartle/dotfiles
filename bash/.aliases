@@ -1,0 +1,18 @@
+# aliases
+alias ll="ls -l"
+alias la="ls -la"
+
+# vim
+alias vim="/usr/bin/nvim"
+alias oldvim="/usr/bin/vim"
+
+# add to techrescue repo
+alias ttrepo="/usr/bin/repo-add /home/$USER/techrescue-repo/techrescue.db.tar.gz $1"
+
+# screenshots
+# select area of screen
+alias selsh="cd $HOME/Screenshots && /usr/bin/slurp | /usr/bin/grim -g - "$(date +'%s_grim.png')""
+alias ss="/usr/bin/grim $HOME/Screenshots/$(date +'%s_grim.png')"
+
+# SSH
+alias sshw="$HOME/go/bin/sshw"

@@ -1,0 +1,53 @@
+URxvt.termName: xterm-256color
+URxvt.inheritPixmap: False
+URxvt.imLocale: en_AU.UTF-8
+URxvt.scrollBar: false
+URxvt.saveLines: 500
+URxvt.urlLauncher: chromium
+URxvt.cursorBlink: true
+URxvt.fading: 0%
+urxvt.font:             xft:Hack:size=8
+urxvt.boldFont:         xft:Hack:bold:size=8
+URxvt*background:      #262626
+urxvt.depth: 32
+urxvt.background: rgba:2626/2626/2626/ffff
+URxvt.foreground: white
+#URxvt.tintColor: #262626
+URxvt.borderLess: true 
+URxvt.lineSpace: -1
+URxvt.letterSpace: -1
+URxvt.internalBorder: 16
+#URxvt.perl-ext-common: tabbed
+#URxvt.tabbed.tabbar-bg: rgba:2828/2a2a/3636/ffff
+#URxvt.tabbed.tabbar-bg: -1
+#URxvt.tabbed.tabbar-fg: -2
+#URxvt.tabbed.tab-fg: 0
+#URxvt.tabbed.tab-bg: 1
+
+*foreground:     rgba:ffff/ffff/ffff/ffff
+*background:     rgb:26/26/26
+!black
+*color0:         rgb:26/26/26
+*color8:         rgb:4d/4d/4d
+!red
+*color1:         rgb:ff/55/55
+*color9:         rgb:ff/6e/67
+!green
+*color2:         rgb:50/fa/7b
+*color10:        rgb:5a/f7/8e
+!brown/yellow
+*color3:         rgb:f1/fa/8c
+*color11:        rgb:f4/f9/9d
+!blue
+*color4:         rgb:84/84/fe
+*color12:        rgb:8c/8c/ff
+!magenta
+*color5:         rgb:ff/79/c6
+*color13:        rgb:ff/92/d0
+!cyan
+*color6:         rgb:8b/e9/fd
+*color14:        rgb:9a/ed/fe
+!white
+*color7:         rgb:bf/bf/bf
+*color15:        rgb:ff/ff/ff
+
