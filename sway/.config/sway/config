@@ -1,12 +1,17 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-#set mod key to super
+#set mod key to alt
 set $mod Mod1
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod normal
+
 #set $menu dmenu_path | dmenu | xrgs swaymsg exec --
 bindsym $mod+d exec rofi -show drun
+
+#screenshot controls (uses my screenshot scripts)
+bindsym $mod+shift+p exec /home/tsb/.config/screenshots/shotty.sh
+
 #key bindings bindings go here. Using --to-code so that they work in different keyboard layouts
 bindsym --to-code {
     # start a terminal
@@ -24,6 +29,7 @@ bindsym --to-code {
     #script to open clipboard content in mpv (manily used for youtube videos)
     # not really needed when using qutebrowser
     $mod+m exec plaympv
+
 
     # change focus
     $mod+h focus left
@@ -108,9 +114,6 @@ bindsym --to-code {
     #resize key
     $mod+r mode "resize"
 
-    #screenshot controls (uses my screenshot scripts)
-    Print exec screenshot
-    shift+Print exec screenshot-area
 
     #show drop down terminal
     $mod+grave scratchpad show
@@ -119,7 +122,7 @@ bindsym --to-code {
     $mod+shift+grave exec alacritty --title drop_down_term
 
     #open a file manager
-    $mod+z exec alacritty -e nnn
+    $mod+z exec caja
 
     #open nmtui dialog
     $mod+n exec urxvtc --title wifi_term -e nmtui-connect
