@@ -1,5 +1,5 @@
 let mapleader=" "
-
+set shell=sh
 
 call plug#begin('~/local/share/nvim/plugged')
 
@@ -18,8 +18,8 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'alvan/vim-closetag'
 Plug 'AndrewRadev/tagalong.vim'
 " Nerd Tree plugns
-Plug 'scrooloose/nerdtree'
-Plug 'tsony-tsonev/nerdtree-git-plugin'
+Plug 'preservim/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdcommenter'

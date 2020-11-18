@@ -3,7 +3,7 @@ alias ll="ls -l"
 alias la="ls -la"
 
 # vim
-alias vim="/usr/bin/nvim"
+alias vim="/usr/local/bin/nvim"
 alias oldvim="/usr/bin/vim"
 
 # add to techrescue repo
